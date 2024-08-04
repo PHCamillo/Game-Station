@@ -1,0 +1,60 @@
+body {
+    color: black;
+    background: linear-gradient(45deg, black, transparent);
+    margin: 0px;
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 3px linear-gradient(55deg, #ef0707, #3f67d9);
+    padding: 20px;
+    font-size: 45px;
+    color: rgb(255, 226, 0)
+}
+
+.chamada {
+    background: linear-gradient(55deg,#ef0707, #3f67d9);
+    padding-bottom: 80px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.categoria-jogos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-jogos img {
+    opacity: 0.5;
+    height: 250px;
+}
+
+.categoria-jogos img:hover { 
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(255, 226, 0)
+}
